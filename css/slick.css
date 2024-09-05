@@ -1,0 +1,30 @@
+.logo{
+    width: 50px;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.wrapper{
+    padding: 100px 0;
+}
+
+
+.demo{
+    padding: 0 20px !important;
+}
+
+.slick-dots{
+    display: none !important;
+}
+.slick-arrow{
+    display: none !important;
+}
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

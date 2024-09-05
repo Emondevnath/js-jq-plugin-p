@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bootstrap/js/jquery</title>
+    <!--fav icon link -->
+    <link rel="shortcut icon" href="../images/emon.png" />
+
+    <!-- css link -->
+     <link rel="stylesheet" href="../vendor/lightbox2-dev/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/preload.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+  </head>
+
+  <body>
+
+       <!-- header start -->
+       <header>
+        <div class="container">
+          <!-- nav start -->
+          <nav class="navbar navbar-expand-lg navbar-light m_nav">
+            <div class="container-fluid p-0">
+              <!-- logo start -->
+              <a class="navbar-brand" href="../index.html">
+                <img
+                  class="img-fluid logo"
+                  src="../images/emon.png" 
+                  alt="TinyOne"
+                /><span>Emon Nath</span>
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmain"
+                aria-controls="navmain"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menu" id="navmain">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/preload.html">Mixitup</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/slick.html">Swiperjs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/counter.html">Counterup</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">contract</a>
+                  </li>
+                </ul>
+  
+                <div>
+                  <button class="btn btn-success text-uppercase">Submit</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- nav end -->
+        </div>
+      </header>
+      <!-- header end -->
+
+
+
+    <section class="mixitup">
+
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <a href="#" data-filter="all" class="btn btn-secondary">all</a>
+              <a href="#" data-filter=".web" class="btn btn-danger">web design</a>
+              <a href="#" data-filter=".dev" class="btn btn-success">web</a>
+              <a href="#" data-filter=".wp" class="btn btn-primary">development</a>
+              <a href="#" data-filter=".wep" class="btn btn-dark">wordpress</a>
+              <a href="#" class="btn btn-dark" data-sort="order:asc">ASC</a>
+              <a href="#" class="btn btn-dark" data-sort="order:descending">DSC</a>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="row mt-2" id="hello">
+
+          <div class="col-lg-4 mix dev"  data-order="1">
+            <div class="img">
+              <img src="../images/Rectangle1.jpg" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix dev"  data-order="2">
+            <div class="img">
+              <img src="../images/Rectangle2.jpg" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix dev"  data-order="3">
+            <div class="img">
+              <img src="../images/Rectangle3.jpg" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix wp"  data-order="4">
+            <div class="img">
+              <img src="../images/web.jpg" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix web"  data-order="5">
+            <div class="img">
+              <img src="../images/web.png" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix web"  data-order="6">
+            <div class="img">
+              <img src="../images/web2.png" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix web"  data-order="7">
+            <div class="img">
+              <img src="../images/web3.png" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix wep"  data-order="8">
+            <div class="img">
+              <img src="../images/wordpress.png" class="w-100" alt="images">
+            </div>
+          </div>
+          <div class="col-lg-4 mix wep"  data-order="9">
+            <div class="img">
+              <img src="../images/wordpress2.png" class="w-100" alt="images">
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </section>
+
+       
+
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-danger">Click The images open thi big image</h1>
+          <div class="col-lg-4">
+            <div class="l_img">
+               <a  href="../images/web.jpg" class="w-100" data-lightbox="i_img" data-title="My caption">
+                <img src="../images/Rectangle1.jpg" alt="">
+               </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="l_img">
+               <a  href="../images/web2.png" class="w-100" data-lightbox="i_img" data-title="My caption">
+                <img src="../images/Rectangle1.jpg" alt="">
+               </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="l_img">
+               <a  href="../images/web3.png" class="w-100" data-lightbox="i_img" data-title="My caption">
+                <img src="../images/Rectangle1.jpg" alt="">
+               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <h1>paralax</h1>
+
+    <section class="paralaxt">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="../images/web.png"></div>
+      <div class="parallax-window" data-parallax="scroll" data-image-src="../images/web.png"></div>
+    
+    </section>
+
+
+   
+  
+  
+
+   
+
+
+
+    <!-- script link --> 
+    <script src="../js/jquery/jquery.min.js"></script>
+    <!-- plugin -->
+    <script src="../vendor/mixitup-3/mixitup.min.js"></script>
+    <script src="../vendor/lightbox2-dev/dist/js/lightbox.min.js"></script>
+    <script src="../vendor/parallax/parallax.min.js"></script>
+
+    <!-- plugin end -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/preload.js"></script>
+  </body>
+</html>
